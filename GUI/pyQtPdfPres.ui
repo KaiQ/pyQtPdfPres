@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Episoder</class>
+ <widget class="QWidget" name="Episoder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>473</width>
+    <height>325</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Episoder</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="prev">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="active">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="next">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLCDNumber" name="lcdNumber">
+       <property name="numDigits">
+        <number>4</number>
+       </property>
+       <property name="segmentStyle">
+        <enum>QLCDNumber::Flat</enum>
+       </property>
+       <property name="intValue" stdset="0">
+        <number>1337</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="Stop">
+         <property name="text">
+          <string>Stop</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="bStart">
+         <property name="text">
+          <string>Start</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
